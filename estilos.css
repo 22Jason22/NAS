@@ -1,0 +1,56 @@
+body{
+	margin: 0.1px;
+	font-family: sans-serif;
+	background-image: url(img/wallpaper.png);
+}
+header{
+	display: flex;
+	background-color: #8A95F9;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+	font-weight: 600;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo img{
+	height: 50px;
+	margin-right: 10px;
+}
+.a{
+	margin: 20px;
+	text-decoration: none;
+}
+
+
+div#general{
+	width: 1366x;
+	height: 768px;
+	background-color: red;
+	overflow: hidden;
+}
+.imagen{
+	width: 100vh;
+	height: 200vh;
+	background-color: blue;
+	float: right;
+	
+}
+.ajust{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+
+}
+div#titulo{
+	width: 400px;
+	height: 200px;
+	background-color: green;
+}
+div#contenido{
+	width: 640px;
+	height: 400px;
+	background-color: purple;
+}
